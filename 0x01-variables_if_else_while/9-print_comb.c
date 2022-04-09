@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
- * Return: Always 0 (success/correct)
+ * Return: Always 0 (Success/correct)
  *
  */
 int main(void)
@@ -21,5 +20,10 @@ break;
 }
 putchar(',');
 putchar (' ');
+
+return (0);
+
 }
+
+
 
