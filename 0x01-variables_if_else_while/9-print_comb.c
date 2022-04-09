@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success/correct)
  *
+ * Return: Alwats 0 (success/correct)
  */
 int main(void)
 
@@ -19,10 +19,7 @@ if (number == 57)
 break;
 }
 putchar(',');
-putchar (' ');
-
-return (0);
-
+putchar(' ');
 }
 
 
