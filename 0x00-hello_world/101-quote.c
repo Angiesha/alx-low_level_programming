@@ -1,0 +1,13 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: return 1 (Error)
+ */
+int main(void)
+{
+fprintf(stdrr,"and that piece of art is userful\" - Dora Korpar, 2015-10-19\n");
+
+return (1);
+
+}
