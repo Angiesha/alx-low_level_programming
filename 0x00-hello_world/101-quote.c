@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: return 1 (Error)
  */
+
 int main(void)
 {
 
