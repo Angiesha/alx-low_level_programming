@@ -1,25 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print alphabet
+ * _islower - lowrercase checker. Returns 1 if true and 0 if false
  *
- * Return:Always 0
+ * @c: integer parameter c
+ *
+ * Return: return value
  */
-print_alphabet_x10(void)
+int _islower(int c)
 {
-int alphabet;
-int count;
+	int value;
 
-count = 0;
-while (count < 10)
-{
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-_putchar(alphabet);
-}
-
-count++;
-_putchar('\n');
-}
-
+	if (c >= 'a' && c <= 'z')
+	{
+		value = 0;
+	}
+	return (value);
 }
