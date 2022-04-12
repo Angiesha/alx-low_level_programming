@@ -14,7 +14,7 @@ int _islower(int c)
 
 	if (c >= 'a' && c <= 'z')
 	{
-		value = 0;
+		value = 1;
 	}
 	else
 	{
