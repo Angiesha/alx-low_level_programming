@@ -23,7 +23,7 @@ int main(void)
 			c = j / 10; /* tens secondnum */
 			d = j % 10; /* unit secondnum */
 
-			if (a <c || (a ==c && b < d))
+			if (a < c || (a == c && b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
@@ -31,7 +31,7 @@ int main(void)
 				putchar(c + '0');
 				putchar(d + '0');
 
-				if(!(a == 9 && b == 8))
+				if (!(a == 9 && b == 8))
 				{
 					putchar(',');
 					putchar(' ');
