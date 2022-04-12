@@ -5,7 +5,7 @@
  *
  * Description: print all possible comb of two digits
  *
- * Retur: 0
+ * Return: 0
  */
 
 int main(void)
@@ -14,7 +14,8 @@ int main(void)
 	int y;
 	int z;
 
-	x = 0
+	x = 0;
+
 	while (x < 100)
 	{
 		y = x / 10; /* tens */
@@ -22,8 +23,8 @@ int main(void)
 
 		if (y < z)
 		{
-			putchar(y +'0');
-			putchar(z +'0');
+			putchar(y + '0');
+			putchar(z + '0');
 
 			if (x < 89)
 			{
