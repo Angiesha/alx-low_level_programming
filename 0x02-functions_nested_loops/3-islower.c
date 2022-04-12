@@ -5,8 +5,9 @@
  *
  * @c: integer parameter c
  *
- * Return: return value
+ * Return: returns value
  */
+
 int _islower(int c)
 {
 	int value;
