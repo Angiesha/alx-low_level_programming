@@ -16,11 +16,11 @@ int main(void)
 	{
 		j = i / 100; /* hundreds */
 		k = (i / 10) % 10, /* tens */
-	        l = i % 10; /* unit */
+		l = i % 10; /* unit */
 
 		if (j < k && k < l)
 		{
-	          	putchar(j + '0');
+			putchar(j + '0');
 			putchar(k + '0');
 			putchar(l + '0');
 
@@ -28,6 +28,7 @@ int main(void)
 			{
 				putchar(',');
 				putchar(' ');
+
 			}
 		}
 	}
