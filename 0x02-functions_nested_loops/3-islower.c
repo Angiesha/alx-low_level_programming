@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - lowrercase checker. Returns 1 if true and 0 if false
+ * _islower - lowercase checker. Returns 1 if true and 0 if false
  *
  * @c: integer parameter c
  *
