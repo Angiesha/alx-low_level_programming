@@ -5,7 +5,7 @@
  *
  * Description: Print all possibles combo of two 2-digit numbers
  *
- * Return: return 0 (success)
+ * Return: return 0 (Success)
  */
 
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 			c = j / 10; /* tens secondnum */
 			d = j / 10; /* unit secondnum */
 
-			if (a < c || (a == c && b< d))
+			if (a < c || (a == c && b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
