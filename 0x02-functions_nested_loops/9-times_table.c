@@ -4,7 +4,7 @@
  * times_table - prints the 9 times table starting with 0
  */
 
-void times_tables(void)
+void times_table(void)
 {
 	int i, j, mul;
 
@@ -22,7 +22,7 @@ void times_tables(void)
 			{
 				_putchar('0');
 			}
-			else if (mul>= 10)
+			else if (mul >= 10)
 			{
 				_putchar((mul / 10) + '0');
 				_putchar((mul % 10) + '0');
