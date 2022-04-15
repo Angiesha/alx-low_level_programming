@@ -1,19 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _isupper - checks for uppercase character
+ * main - check the code.
  *
- * @c: integer c
- *
- * Return: returns 1 if c is uppercase, returns 0 otherwise
+ * Return: Always 0.
  */
-int _isupper(int c)
+int main(void)
 {
-	int val;
+    char c;
 
-	if (c >= 'A' && c <= 'Z')
-		val = 1;
-	else
-		val = 0;
-	return (val);
+    c = 'A';
+    printf("%c: %d\n", c, _isupper(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isupper(c));
+    return (0);
 }
